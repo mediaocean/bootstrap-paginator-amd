@@ -15,8 +15,19 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+(function (factory) {
+    if (typeof define === 'function' && define.amd) {
+        // Use AMD style loading if available.
+        define(['jquery'], factory);
+    }
+    else {
+        if (typeof window.jQuery === 'undefined') {
+            throw ReferenceError('Cannot find jQuery, bootstrap-paginator requires jQuery');
+        }
+        factory(window.jQuery);
+    }
 
-(function ($) {
+})(function ($) {
 
     "use strict"; // jshint ;_;
 
@@ -654,4 +665,4 @@
 
 
 
-}(window.jQuery));
+});
