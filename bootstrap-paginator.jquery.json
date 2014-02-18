@@ -1,5 +1,5 @@
 {
-    "name": "bootstrap-paginator",
+    "name": "bootstrap-paginator-amd",
     "title": "Bootstrap Paginator",
     "description": "Bootstrap Paginator is a jQuery plugin for rendering and updating Bootstrap Pagination component",
     "keywords": [
@@ -15,21 +15,21 @@
     },
     "maintainers": [
         {
-            "name": "Yun Lai",
-            "email": "lyonlai1984@gmail.com",
+            "name": "Eric Bronnimann",
+            "email": "ebronnimann@mediaocean.com",
             "url": ""
         }
     ],
     "licenses": [
         {
             "type": "Apache-2.0",
-            "url": "https://github.com/lyonlai/bootstrap-paginator/blob/master/LICENSE"
+            "url": "https://github.com/mediaocean/bootstrap-paginator-amd/blob/master/LICENSE"
         }
     ],
-    "bugs": "https://github.com/lyonlai/bootstrap-paginator/issues",
-    "homepage": "http://bootstrappaginator.org/",
+    "bugs": "https://github.com/mediaocean/bootstrap-paginator-amd/issues",
+    "homepage": "https://github.com/mediaocean/bootstrap-paginator-amd/",
     "docs": "http://bootstrappaginator.org/",
-    "download": "https://github.com/lyonlai/bootstrap-paginator/archive/master.zip",
+    "download": "https://github.com/mediaocean/bootstrap-paginator-amd/archive/master.zip",
     "dependencies": {
         "jquery": ">=1.7"
     }
